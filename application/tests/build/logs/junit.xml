@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="40" assertions="56" errors="0" warnings="0" failures="0" skipped="0" time="17.112904">
+    <testsuite name="CodeIgniter Application Test Suite" tests="40" assertions="56" errors="0" warnings="0" failures="0" skipped="0" time="17.112904">
+      <testsuite name="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" tests="8" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="4.179861">
+        <testcase name="test_session" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="23" assertions="1" time="0.652887"/>
+        <testcase name="test_news_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="30" assertions="1" time="0.528180"/>
+        <testcase name="test_gamezone_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="36" assertions="1" time="0.527855"/>
+        <testcase name="test_help_center_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="42" assertions="1" time="0.525444"/>
+        <testcase name="test_tutorials_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="48" assertions="1" time="0.487236"/>
+        <testcase name="test_users_posts_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="54" assertions="1" time="0.483354"/>
+        <testcase name="test_reviews_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="60" assertions="1" time="0.484109"/>
+        <testcase name="test_mails_list" class="Backend_test" classname="Backend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Backend_test.php" line="66" assertions="1" time="0.490796"/>
+      </testsuite>
+      <testsuite name="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" tests="13" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="7.310788">
+        <testcase name="test_session" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="23" assertions="1" time="0.205809"/>
+        <testcase name="test_login" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="29" assertions="1" time="0.846721"/>
+        <testcase name="test_profile_edit" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="36" assertions="1" time="0.486295"/>
+        <testcase name="test_index_news" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="42" assertions="1" time="0.647448"/>
+        <testcase name="test_index_posts" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="48" assertions="1" time="0.651260"/>
+        <testcase name="test_index_posts_form" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="54" assertions="1" time="0.650882"/>
+        <testcase name="test_index_posts_list" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="60" assertions="1" time="0.648142"/>
+        <testcase name="test_news_list" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="66" assertions="1" time="0.530200"/>
+        <testcase name="test_tutorials_list" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="72" assertions="1" time="0.528946"/>
+        <testcase name="test_reviews_list" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="78" assertions="1" time="0.569719"/>
+        <testcase name="test_gamezone_list" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="84" assertions="1" time="0.529596"/>
+        <testcase name="test_helpdesk" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="90" assertions="1" time="0.525380"/>
+        <testcase name="test_contact" class="Frontend_test" classname="Frontend_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/controllers/Frontend_test.php" line="96" assertions="1" time="0.490391"/>
+      </testsuite>
+      <testsuite name="Authorization_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Authorization_m_test.php" tests="1" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="1.002608">
+        <testcase name="test_check_login" class="Authorization_m_test" classname="Authorization_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Authorization_m_test.php" line="16" assertions="5" time="1.002608"/>
+      </testsuite>
+      <testsuite name="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" tests="18" assertions="30" errors="0" warnings="0" failures="0" skipped="0" time="4.619647">
+        <testcase name="test_get_all_records" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="14" assertions="4" time="0.243534"/>
+        <testcase name="test_get_all_active_posts" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="33" assertions="1" time="0.242683"/>
+        <testcase name="test_get_all_active_user_posts" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="49" assertions="1" time="0.244645"/>
+        <testcase name="test_get_get_one_record" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="65" assertions="1" time="0.245423"/>
+        <testcase name="test_get_newest_articles" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="76" assertions="2" time="0.246427"/>
+        <testcase name="test_insert" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="93" assertions="1" time="0.289891"/>
+        <testcase name="test_update" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="110" assertions="1" time="0.295323"/>
+        <testcase name="test_delete" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="125" assertions="1" time="0.335138"/>
+        <testcase name="test_get_images" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="142" assertions="7" time="0.251085"/>
+        <testcase name="test_get_news_comments" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="167" assertions="1" time="0.270660"/>
+        <testcase name="test_get_post_comments" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="183" assertions="1" time="0.245180"/>
+        <testcase name="test_get_tutorials_comments" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="199" assertions="1" time="0.246013"/>
+        <testcase name="test_get_reviews_comments" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="215" assertions="1" time="0.241623"/>
+        <testcase name="test_get_user_opinion_for_tutorials" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="231" assertions="1" time="0.243494"/>
+        <testcase name="test_get_user_data_from_table" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="241" assertions="1" time="0.244845"/>
+        <testcase name="test_get_user_tutorials" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="257" assertions="1" time="0.246042"/>
+        <testcase name="test_get_chapters" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="273" assertions="3" time="0.244882"/>
+        <testcase name="test_get_user_data" class="Backend_m_test" classname="Backend_m_test" file="/opt/lampp/htdocs/VideoGamesHub/application/tests/models/Backend_m_test.php" line="291" assertions="1" time="0.242760"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

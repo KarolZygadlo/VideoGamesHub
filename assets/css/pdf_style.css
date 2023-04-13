@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #eeeeee;
+    color: #6C6D6E;
+  }
+.chapter_title {
+    color: #295CE9!important;
+}
+.ebook_info {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

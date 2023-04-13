@@ -1,0 +1,180 @@
+body {
+  font-family: 'Jura', sans-serif;
+  top: 0px !important; 
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+.s-margin {
+    margin-top: 140px;
+}
+
+.g-margin {
+  margin-top: 70px;
+}
+
+@media (max-width: 992px) {
+    .news-tile .card-title {
+      font-size: 1.2rem;
+    }
+  }
+
+  .news-tile .card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    text-align: left;
+  }
+  .news-tile h4 {
+    font-size: 1.2rem;
+  }
+
+  .news-tile h3 {
+    font-size: 1.6rem;
+  }
+
+  .rgba-stylish-strong {
+    background-color: rgba(62, 69, 81, .5);
+  }
+
+  .view:hover {
+    -webkit-filter: brightness(140%);
+    transition: all .4s ease-in-out;
+  }
+
+  .view {
+    transition: all .4s ease-in-out;
+  }
+  
+  .alert {
+    position: fixed;
+    width: 30%;
+    top: 15%;
+    right: -2%;
+    z-index: 9999999;
+  }
+
+    
+.gallery_box {
+  column-count: 3;
+  column-gap: .6em;
+}
+
+.item {
+  display: inline-block;
+  margin: 0 0 .3em;
+  width: 100%;
+}
+
+
+@media (max-width: 991px) {
+	.gallery {
+	  column-count: 2;
+	  column-gap: .3em;
+	}
+
+	.item {
+	  display: inline-block;
+	  margin: 0 0 .3em;
+	  width: 100%;
+	}
+}
+
+@media (max-width: 575px) {
+	.gallery {
+	  column-count: 1;
+	  column-gap: .3em;
+	}
+
+	.item {
+	  display: inline-block;
+	  width: 100%;
+	}
+}
+
+.comments_val {
+  font-size: 0.9375rem;
+}
+
+.feed_background_image {
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+@media (max-width: 575px) {
+	.feed_background_image {
+    height: 200px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+}
+
+.page-footer {
+  background-color: #3C3C3C !important;
+}
+
+.parallax {
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.md-form input:not([type]):focus:not([readonly]), .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="phone"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #212121;
+  -webkit-box-shadow: 0 1px 0 0 #212121;
+  box-shadow: 0 1px 0 0 #212121;
+}
+
+.md-form input:not([type]):focus:not([readonly])+label, .md-form input[type="text"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="email"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="url"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="time"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="date"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="tel"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="number"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="search"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="phone"]:not(.browser-default):focus:not([readonly])+label, .md-form input[type="search-md"]:focus:not([readonly])+label, .md-form textarea.md-textarea:focus:not([readonly])+label {
+  color: #212121;
+}
+
+.pills-default .nav-link.active {
+  background-color: #2E2E2E !important;
+}
+.md-pills .nav-link.active {
+  color: #fff;
+  background-color: #2E2E2E;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.photo_project {
+  position: relative;
+  height: 300px;
+  line-height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.paging a,
+.paging strong {
+    padding: 5px 10px;
+}
+
+.paging strong {
+    background-color: #212121;
+    color: #fff;
+    box-shadow: none;
+}
+
+.paging a {
+    color: black;
+}
